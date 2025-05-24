@@ -1,0 +1,158 @@
+header {
+    width: 95vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 2vw;
+    height: fit-content;
+}
+.logo-img{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 7%;
+}
+.logo-menu-all, .logo-all{
+    display: flex;
+    align-items: center;
+}
+.person{
+    width: 7vh;
+    height: 7vh;
+    margin-left: 2vw;
+}
+.logo-menu{
+    display: flex;
+    gap: 6vw;
+    font-size: 1.2em;
+}
+.logo-menu a{
+    text-decoration: none;
+    font-family: "Madimi One", sans-serif;
+    color: #000000;
+}
+
+
+
+
+.main-picture{
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;     
+    background-image: url("lo.jpg");
+    background-position: center;
+    background-size: cover;
+    gap: 0px;
+    border-radius: 40px 40px 40px 40px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.main-picture-h1{
+    gap: 0px;
+    opacity: 0px;
+    font-family: Playfair Display SC;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 199.95px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.main-picture-h1, .main-picture-p, .main-picture-h2, .button-main-picture{
+    width: 50vw;
+    margin-left: 5vw;
+    align-items: center;
+    color: white;
+}
+
+.main-picture-p{
+    width: 265px;
+    height: 29px;
+    top: 442px;
+    left: 207px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: -100px;
+}
+.main-picture-h2{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.88px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: -1px;
+}
+.button-main-picture{
+    background-color: white;
+    display: block;
+    width: 230px;
+    padding: 25px 30px 25px 30px;
+    gap: 10px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    margin-top: 50px;
+    text-decoration: none;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+.button-main-picture:hover{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+}
+.button-main-picture-text{
+    display: block;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+}
+
+
+
+
+.second-window{
+    display: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.box {
+    width: 100%;
+    height: 210px; /* Фиксированная высота для прямоугольной формы */
+    background-color: #b69400;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+    

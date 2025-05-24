@@ -1,0 +1,151 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 40px;
+    width: 80vw;
+    height: 90vh;
+    margin-left: 10vw;
+}
+.div1{
+    background-image: url("ssss.jpg");
+    background-size: cover;
+}
+.div2{
+    background-image: url("180.png");
+    background-size: cover;
+}
+
+.div3{
+    background-image: url("213.png");
+    background-size: cover;
+}
+
+.div4{
+    background-image: url("1694.webp");
+    background-size: cover;
+}
+
+.div5{
+    background-image: url("260.webp");
+    background-size: cover;
+}
+
+.div6{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+
+.div7{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div8{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div9{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div10{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+.div11{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+
+.div12{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div13{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div14{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div15{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+.div16{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+
+.div17{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div18{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div19{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+.div20{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+.div21{
+    background-image: url("xcxc.jpg");
+    background-size: cover;
+}
+
+
+
+
+header {
+    width: 95vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 2vw;
+    height: fit-content;
+}
+.logo-img{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 7%;
+}
+.logo-menu-all, .logo-all{
+    display: flex;
+    align-items: center;
+}
+.person{
+    width: 7vh;
+    height: 7vh;
+    margin-left: 2vw;
+}
+.logo-menu{
+    display: flex;
+    gap: 6vw;
+    font-size: 1.2em;
+}
+.logo-menu a{
+    text-decoration: none;
+    font-family: "Madimi One", sans-serif;
+    color: #000000;
+}

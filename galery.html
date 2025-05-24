@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн Рулетка</title>
+    <link rel="stylesheet" href="galery.css">
+</head>
+<body>
+    <div class="roulette-container">
+        <h1>Онлайн Рулетка</h1>
+        
+        <div class="wheel-container">
+            <div id="wheel" class="wheel">
+                <div class="wheel-center"></div>
+            </div>
+            <div class="ball"></div>
+        </div>
+        
+        <div class="betting-area">
+            <div class="numbers-grid">
+                <!-- Числа от 1 до 36 -->
+                <div class="number-row">
+                    <div class="number red" data-number="1">1</div>
+                    <div class="number black" data-number="2">2</div>
+                    <div class="number red" data-number="3">3</div>
+                </div>
+                <!-- Добавьте остальные числа по аналогии -->
+                <!-- Для примера я добавил только несколько -->
+                <div class="number-row">
+                    <div class="number black" data-number="4">4</div>
+                    <div class="number red" data-number="5">5</div>
+                    <div class="number black" data-number="6">6</div>
+                </div>
+                <div class="number-row">
+                    <div class="number red" data-number="7">7</div>
+                    <div class="number black" data-number="8">8</div>
+                    <div class="number red" data-number="9">9</div>
+                </div>
+                <div class="number-row">
+                    <div class="number black" data-number="10">10</div>
+                    <div class="number black" data-number="11">11</div>
+                    <div class="number red" data-number="12">12</div>
+                </div>
+                <div class="number-row">
+                    <div class="number black" data-number="13">13</div>
+                    <div class="number black" data-number="14">14</div>
+                    <div class="number red" data-number="15">15</div>
+                </div>
+                <div class="number-row">
+                    <div class="number black" data-number="16">16</div>
+                    <div class="number black" data-number="17">17</div>
+                    <div class="number red" data-number="18">18</div>
+                </div>
+                <div class="number-row">
+                    <div class="number black" data-number="19">19</div>
+                    <div class="number black" data-number="20">20</div>
+                    <div class="number red" data-number="21">21</div>
+                </div>
+                <div class="number-row">
+                    <div class="number black" data-number="22">22</div>
+                    <div class="number black" data-number="23">23</div>
+                    <div class="number red" data-number="24">24</div>
+                </div><div class="number-row">
+                    <div class="number black" data-number="25">25</div>
+                    <div class="number black" data-number="26">26</div>
+                    <div class="number red" data-number="27">27</div>
+                </div><div class="number-row">
+                    <div class="number black" data-number="28">28</div>
+                    <div class="number black" data-number="29">29</div>
+                    <div class="number red" data-number="30">30</div>
+                </div><div class="number-row">
+                    <div class="number black" data-number="31">31</div>
+                    <div class="number black" data-number="32">32</div>
+                    <div class="number red" data-number="33">33</div>
+                </div><div class="number-row">
+                    <div class="number black" data-number="34">34</div>
+                    <div class="number black" data-number="35">35</div>
+                    <div class="number red" data-number="36">36</div>
+                </div>
+                <!-- Добавьте остальные числа до 36 -->
+            </div>
+            
+            <div class="outside-bets">
+                <div class="bet-option" data-bet="1-12">1-12</div>
+                <div class="bet-option" data-bet="13-24">13-24</div>
+                <div class="bet-option" data-bet="25-36">25-36</div>
+                <div class="bet-option red" data-bet="red">Красное</div>
+                <div class="bet-option black" data-bet="black">Черное</div>
+                <div class="bet-option" data-bet="even">Четное</div>
+                <div class="bet-option" data-bet="odd">Нечетное</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="balance">
+                Баланс: <span id="balance">1000</span> ₽
+            </div>
+            <div class="bet-amount">
+                Ставка: <input type="number" id="bet-input" min="10" max="1000" value="10">
+            </div>
+            <button id="spin-btn">Крутить</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="galery.js"></script>
+</body>
+</html>
